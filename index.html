@@ -20,7 +20,7 @@ function isSiteOnline(url,callback) {
     img.src = url+"/favicon.ico";
 }
 
-isSiteOnline("http://w.phonetic.store",function(found){
+isSiteOnline("https://w.phonetic.store",function(found){
     if(found) {
         // Wordpress is Online; redirect to Wordpress    
         document.location.replace("https://w.phonetic.store")
